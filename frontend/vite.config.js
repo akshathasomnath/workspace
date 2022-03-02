@@ -5,7 +5,7 @@ export default defineConfig({
   base: './',
   plugins: [solidPlugin()],
   build: {
-    outDir: '../../backend/static/',
+    outDir: '../backend/static/',
     target: 'esnext',
     polyfillDynamicImport: false,
   },
